@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,900&display=swap');
+
+@layer base{
+  body{
+    @apply font-noto bg-black  text-gray-50;
+  }
+}
+
+.btn{
+  font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+}
+.btn-red{
+  background-color: #e50914;
+  color: #fff;
+}
+.btn-white{
+  border: 1px solid #fff;
+  color: #fff;
+}
